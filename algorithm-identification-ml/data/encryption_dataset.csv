@@ -1,0 +1,4 @@
+key_size,ciphertext_size,algorithm
+128,256,AES
+64,128,DES
+2048,512,RSA

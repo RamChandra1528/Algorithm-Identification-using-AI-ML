@@ -1,0 +1,17 @@
+{
+    "name": "algorithm-identification-backend",
+    "version": "1.0.0",
+    "description": "Backend for algorithm identification project",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "multer": "^1.4.2",
+      "cors": "^2.8.5"
+    },
+    "author": "Ram",
+    "license": "ISC"
+  }
+  
