@@ -23,62 +23,66 @@ The project consists of the following parts:
 
 ### Step 1: Clone the Repository
 Clone the repository to your local machine:
-\`\`\`bash
+```bash
 git clone https://github.com/RamChandra1528/Algorithm-Identification-using-AI-ML.git
 cd Algorithm-Identification-using-AI-ML
-\`\`\`
+```
 
 ### Step 2: Install Dependencies for Backend
 Navigate to the backend folder and install the dependencies:
-\`\`\`bash
+```bash
 cd algorithm-identification-backend
 npm install
-\`\`\`
+```
 
 ### Step 3: Install Dependencies for Frontend
 Navigate to the frontend folder and install the dependencies:
-\`\`\`bash
+```bash
 cd algorithm-identification-frontend
 npm install
-\`\`\`
+```
 
 ### Step 4: Set Up the ML Model
 Navigate to the ML folder and set up a Python virtual environment:
-\`\`\`bash
+```bash
 cd algorithm-identification-ml
 python3 -m venv venv
 source venv/bin/activate  # For macOS/Linux
-# OR
+```
+```bash
 .\venv\Scripts\activate  # For Windows
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### Step 5: Run the Application
 
 #### Backend
 Start the backend server:
-\`\`\`bash
+```bash
 cd algorithm-identification-backend
 npm start
-\`\`\`
+```
+```bash
 The backend will run at \`http://localhost:5000\`.
-
+```
 #### Frontend
 Start the frontend application:
-\`\`\`bash
+```bash
 cd algorithm-identification-frontend
 npm start
-\`\`\`
+```
+```bash
 The frontend will run at \`http://localhost:3000\`.
-
+```
 #### Machine Learning Model
 To run the ML model service:
-\`\`\`bash
+```bash
 cd algorithm-identification-ml
 python app.py
-\`\`\`
+```
+```bash
 The ML service will run at \`http://localhost:5001\`.
-
+```
 ## Features
 - **Algorithm Detection**: Automatically detects the cryptographic algorithm from the dataset.
 - **Auto-Optimization**: Suggests superior algorithms based on the data.
