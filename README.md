@@ -84,9 +84,14 @@ python app.py
 The ML service will run at \`http://localhost:5001\`.
 ```
 ## Features
+
 - **Algorithm Detection**: Automatically detects the cryptographic algorithm from the dataset.
-- **Auto-Optimization**: Suggests superior algorithms based on the data.
-- **Interactive Visualization**: Displays algorithm comparisons using visual tools.
+- **Algorithm Similarity Detection**: Identifies and compares algorithms, highlighting differences.
+- **Auto-Optimization Suggestions**: Recommends superior algorithms for improved performance.
+- **Complexity Estimation**: Assesses time and space complexity of identified algorithms.
+- **AI-Powered Learning**: Recognizes new and hybridized algorithms using machine learning.
+- **Cloud Collaboration**: Allows users to share algorithms, enhancing AI recognition.
+- **Interactive Visualization**: Provides graphical representations, like flow diagrams, for algorithm clarity.
 
 ## Integration
 - **Frontend**: Interacts with users, allowing file uploads for algorithm detection.
